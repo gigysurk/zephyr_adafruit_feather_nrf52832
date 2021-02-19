@@ -1,0 +1,8 @@
+# Adafruit Feather nRF52840 Express board configuration
+
+# Copyright (c) 2020 Tobias Svehagen
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_ADAFRUIT_FEATHER_NRF52832
+	bool "Adafruit Feather nRF52832"
+	depends on SOC_NRF52832_QFAA
