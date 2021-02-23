@@ -114,7 +114,7 @@
 		 */
 
 		/* Storage partition will be used by FCB/NFFS/NVS if enabled. */
-                storage_partition: partition@f8000 {
+                storage_partition: partition@78000 {
 			label = "storage";
 			reg = <0x00078000 0x00008000>;
 		};
